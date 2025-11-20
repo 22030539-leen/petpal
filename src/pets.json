@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Bella",
+    "breed": "Golden Retriever",
+    "age": "2 years",
+    "img": "https://placedog.net/500"
+  },
+  {
+    "id": 2,
+    "name": "Milo",
+    "breed": "Tabby Cat",
+    "age": "1 year",
+    "img": "https://placekitten.com/500/500"
+  },
+  {
+    "id": 3,
+    "name": "Luna",
+    "breed": "Siamese Cat",
+    "age": "3 years",
+    "img": "https://placekitten.com/501/500"
+  },
+  {
+    "id": 4,
+    "name": "Rocky",
+    "breed": "German Shepherd",
+    "age": "4 years",
+    "img": "https://placedog.net/501"
+  },
+  {
+    "id": 5,
+    "name": "Coco",
+    "breed": "Pomeranian",
+    "age": "1.5 years",
+    "img": "https://placedog.net/450/450"
+  },
+  {
+    "id": 6,
+    "name": "Oreo",
+    "breed": "Black & White Cat",
+    "age": "2 years",
+    "img": "https://placekitten.com/450/450"
+  },
+  {
+    "id": 7,
+    "name": "Max",
+    "breed": "Labrador",
+    "age": "5 years",
+    "img": "https://placedog.net/600/500"
+  },
+  {
+    "id": 8,
+    "name": "Nala",
+    "breed": "Calico Cat",
+    "age": "8 months",
+    "img": "https://placekitten.com/600/500"
+  }
+]

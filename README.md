@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# 🐾 PetPal – Pet Adoption Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+PetPal is a responsive ReactJS web application designed to help users find pets available for adoption, view detailed profiles, mark favorites, read success stories, and contact shelters.  
+The project also includes an Admin Dashboard for managing pet data and a Dark/Light mode theme switch.
 
-## Available Scripts
+This project fulfills all requirements for the Web Development course final project.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📌 Table of Contents
+1. [Project Description](#project-description)  
+2. [Features](#features)  
+3. [Technologies Used](#technologies-used)  
+4. [Project Pages](#project-pages)  
+5. [Setup Instructions](#setup-instructions)  
+6. [Folder Structure](#folder-structure)  
+7. [Screenshots](#screenshots)  
+8. [Deployment Link](#deployment-link)  
+9. [Contributors](#contributors)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🐶 *Project Description*
+PetPal is a modern and user-friendly pet adoption platform built with *ReactJS* and *Bootstrap*. Users can browse available pets, search and filter by type, add favorites, contact shelters, and submit adoption requests.
 
-### `npm test`
+The project also includes:
+- Admin Login  
+- Admin Dashboard (Add / Edit / Delete pets)  
+- Light/Dark mode toggle  
+- Responsive UI for all devices  
+- LocalStorage support (favorites, theme, admin login)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## ✨ *Features*
+### 👩‍💻 User Features
+✔ Browse all pets  
+✔ View detailed pet profiles  
+✔ Mark/unmark favorites  
+✔ Adoption request form  
+✔ View success stories  
+✔ Contact & shelters info  
+✔ Fully responsive design  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🛠 Admin Features
+✔ Admin login  
+✔ Add new pets  
+✔ Edit existing pets  
+✔ Delete pets  
+✔ Manage custom pets saved in LocalStorage  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🌙 Theme
+✔ Light & Dark mode toggle (saved in localStorage)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🧰 *Technologies Used*
+- *ReactJS*
+- *React Router DOM*
+- *Bootstrap 5*
+- *AOS Animation Library*
+- *CSS3*
+- *LocalStorage API*
+- *Git & GitHub*
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📄 *Project Pages*
+| Page | Description |
+|------|-------------|
+| Home | Overview, CTA buttons, hero section |
+| About | Information about the platform |
+| Pets | Search, filter, view all pets |
+| Pet Details | Detailed page + Adopt form |
+| Favorites | Saved users favorites |
+| Adoption | Adoption process guide |
+| Stories | Success stories |
+| Contact | Contact + form |
+| Admin Login | Restricted login |
+| Admin Dashboard | Add / Edit / Delete pets |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## ⚙️ *Setup Instructions*
+Follow these steps to run the project locally:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 1️⃣ Clone the repository
+```sh
+git clone https://github.com/22089359-leen/petpal.git

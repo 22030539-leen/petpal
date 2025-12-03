@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.592f5a9f.css",
-    "main.js": "/static/js/main.44286402.js",
-    "static/js/453.ce53003b.chunk.js": "/static/js/453.ce53003b.chunk.js",
-    "index.html": "/index.html",
-    "main.592f5a9f.css.map": "/static/css/main.592f5a9f.css.map",
-    "main.44286402.js.map": "/static/js/main.44286402.js.map",
-    "453.ce53003b.chunk.js.map": "/static/js/453.ce53003b.chunk.js.map"
+    "main.css": "/petpal-bootstrap/static/css/main.592f5a9f.css",
+    "main.js": "/petpal-bootstrap/static/js/main.4835729c.js",
+    "static/js/453.b99e172b.chunk.js": "/petpal-bootstrap/static/js/453.b99e172b.chunk.js",
+    "index.html": "/petpal-bootstrap/index.html",
+    "main.592f5a9f.css.map": "/petpal-bootstrap/static/css/main.592f5a9f.css.map",
+    "main.4835729c.js.map": "/petpal-bootstrap/static/js/main.4835729c.js.map",
+    "453.b99e172b.chunk.js.map": "/petpal-bootstrap/static/js/453.b99e172b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.592f5a9f.css",
-    "static/js/main.44286402.js"
+    "static/js/main.4835729c.js"
   ]
 }

@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar.js";
 import Footer from "./components/Footer.js";
@@ -47,7 +47,7 @@ export default function App() {
   };
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       {/* ⭐ PASS isAdmin TO NAVBAR */}
       <Navbar toggleTheme={toggleTheme} theme={theme} isAdmin={isAdmin} />
 
@@ -82,7 +82,7 @@ export default function App() {
       </Routes>
 
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

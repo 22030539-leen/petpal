@@ -87,16 +87,22 @@ Follow these steps to run the project locally:
 ### 1️⃣ Clone the repository
 ```sh
 git clone https://github.com/22089359-leen/petpal.git
-## 🖼 Screenshots
-
-### 🏠 Home Page
-![Home Page](screenshots/home.png)
-
-### 🐾 Pets Page
-![Pets Page](screenshots/pets.png)
-
-### 🔐 Login
-![Login](screenshots/login.png)
-
-### 🛠 Admin 
-![Admin ](screenshots/admin.png)
+##Home Page 
+![Home](public/screenshots/home.png)
+![Home](public/screenshots/home1.png)
+##About page
+![About](public/screenshots/about.png)
+##Process page
+![Process](public/screenshots/process.png)
+##Pets page
+![Pets](public/screenshots/pets.png)
+##Favorites page
+![Favorites](public/screenshots/favorites.png)
+##Stories page
+![Stories](public/screenshots/stories.png)
+##Contact page
+![Contact](public/screenshots/contact.png)
+##Login Page
+![Login](public/screenshots/login.png)
+##Admin page
+![Admin](public/screenshots/admin.png)

@@ -17,6 +17,9 @@ This project fulfills all requirements for the Web Development course final proj
 7. [Screenshots](#screenshots)  
 8. [Deployment Link](#deployment-link)  
 9. [Contributors](#contributors)
+10. [Database Design](#database-design)
+11. [API Endpoints](#api-endpoints)
+    
 
 ---
 
@@ -58,10 +61,17 @@ The project also includes:
 - *ReactJS*
 - *React Router DOM*
 - *Bootstrap 5*
-- *AOS Animation Library*
+- Java Script
+- Node.js
+- Express.js
+- MySQL
+- dotenv
+- cors
 - *CSS3*
 - *LocalStorage API*
 - *Git & GitHub*
+- Postman
+- VS Code
 
 ---
 
@@ -106,3 +116,89 @@ git clone https://github.com/22089359-leen/petpal.git
 ![Login](public/screenshots/login.png)
 ##Admin page
 ![Admin](public/screenshots/admin.png)
+
+---
+
+## Folder Structure
+
+petpal-project/
+│
+├── backend/
+│   ├── db.js
+│   ├── server.js
+│   ├── package.json
+│   ├── .env
+│   └── node_modules/
+│
+├── frontend/
+│   ├── public/
+│   └── src/
+│       ├── components/
+│       ├── pages/
+│       ├── App.js
+│       ├── index.js
+│       └── styles/
+│
+├── README.md
+└── package-lock.json
+
+---
+
+## Screenshots
+The following screenshots demonstrate the main features of the application:
+- Home Page
+- Pets Listing Page
+- Pet Details Page
+- Adoption Request Form
+- Admin Dashboard
+- Admin Adoption Requests View
+
+(Screenshots are included in the project report.)
+
+---
+
+## Deployment Link
+
+Frontend: Not deployed (runs locally on http://localhost:3000)  
+Backend API: Not deployed (runs locally on http://localhost:5000)
+The project can be easily deployed using platforms such as Render or Railway.
+
+---
+
+##Contributors
+-Leen Abou Said
+
+---
+
+## Database Design
+
+The system uses a MySQL relational database with the following relationships:
+- One user can submit multiple adoption requests.
+- Each adoption request is linked to one pet.
+
+### Tables:
+- Users
+- Pets
+- Adoptions
+Foreign key relationships ensure data integrity between pets and adoption requests.
+
+---
+
+## API Endpoints
+
+### Users
+- GET /api/users
+- POST /api/users/admin
+- DELETE /api/users/admin
+
+### Pets
+- GET /api/pets
+- GET /api/pets/:id
+- POST /api/pets
+- PUT /api/pets/:id
+- DELETE /api/pets/:id
+- PUT /api/pets/:id/adopted
+
+### Adoptions
+- POST /api/adoptions
+- GET /api/adoptions

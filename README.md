@@ -153,7 +153,7 @@ The following screenshots demonstrate the main features of the application:
 - Admin Dashboard
 - Admin Adoption Requests View
 
-(Screenshots are included in the project report.)
+(Screenshots are included in public/screenshots.)
 
 ---
 

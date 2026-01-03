@@ -2,12 +2,12 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const allPets = [
-  { id: 1, name: "Luna", breed: "Labrador Retriever", age: "2 years", img: "https://retrieveradvice.com/wp-content/uploads/2022/11/2-Year-Old-Labrador-Retriever-1.jpg" },
-  { id: 2, name: "Milo", breed: "Domestic Short Hair", age: "1 year", img: "https://res.cloudinary.com/petrescue/image/upload/a_0,c_crop,h_2268,w_2268,x_0,y_331/c_fill,h_600,w_900/ncbvp8xoiagewbawzqwp.jpg" },
-  { id: 3, name: "Bella", breed: "Beagle", age: "3 years", img: "https://www.mydogsname.com/wp-content/uploads/2022/08/beagle-breed.jpg" },
-  { id: 4, name: "Nemo", breed: "Clownfish", age: "6 months", img: "https://www.popsci.com/wp-content/uploads/2023/09/23/clownfish-scaled.jpeg?w=1440&h=810" },
-  { id: 5, name: "Coco", breed: "Parrot", age: "1 year", img: "https://www.hindustantimes.com/ht-img/img/2023/05/29/550x309/robert-katzki-1janm1VVgpg-unsplash_1685360741199_1685360819631.jpg" },
-  { id: 6, name: "Rocky", breed: "Husky", age: "4 years", img: "https://breedatlas.net/wp-content/uploads/2024/07/Siberian-Husky-That-One-Husky-Growth-Chart-That-Has-All-The-Important-Information--728x410.jpg.webp" },
+  { id: "d1", name: "Luna", breed: "Labrador Retriever", age: "2 years", img: "https://retrieveradvice.com/wp-content/uploads/2022/11/2-Year-Old-Labrador-Retriever-1.jpg" },
+  { id: "d2", name: "Milo", breed: "Domestic Short Hair", age: "1 year", img: "https://res.cloudinary.com/petrescue/image/upload/a_0,c_crop,h_2268,w_2268,x_0,y_331/c_fill,h_600,w_900/ncbvp8xoiagewbawzqwp.jpg" },
+  { id: "d3", name: "Bella", breed: "Beagle", age: "3 years", img: "https://www.mydogsname.com/wp-content/uploads/2022/08/beagle-breed.jpg" },
+  { id: "d4", name: "Nemo", breed: "Clownfish", age: "6 months", img: "https://www.popsci.com/wp-content/uploads/2023/09/23/clownfish-scaled.jpeg?w=1440&h=810" },
+  { id: "d5", name: "Coco", breed: "Parrot", age: "1 year", img: "https://www.hindustantimes.com/ht-img/img/2023/05/29/550x309/robert-katzki-1janm1VVgpg-unsplash_1685360741199_1685360819631.jpg" },
+  { id: "d6", name: "Rocky", breed: "Husky", age: "4 years", img: "https://breedatlas.net/wp-content/uploads/2024/07/Siberian-Husky-That-One-Husky-Growth-Chart-That-Has-All-The-Important-Information--728x410.jpg.webp" },
 ];
 
 export default function Favorites() {

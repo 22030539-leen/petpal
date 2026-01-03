@@ -9,7 +9,7 @@ export default function AdminLogin() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // simple password check
+    
     if (password === "admin123") {
       localStorage.setItem("isAdmin", "true");
       navigate("/admin");

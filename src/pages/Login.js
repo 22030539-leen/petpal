@@ -12,23 +12,34 @@ export default function Login({ setIsAdmin }) {
     localStorage.getItem("isAdmin") === "true"
   );
 
-  const handleLogin = (e) => {
+  const handleLogin = async(e) => {
     e.preventDefault();
 
-    if (email === "admin@petpal.com" && password === "1234") {
-      localStorage.setItem("isAdmin", "true");
-      setIsAdmin(true);       // ⭐ update App state
-      setIsAdminLocal(true);  // update local flag for this component
-      setError("");
-      navigate("/admin");
-    } else {
-      setError("Invalid email or password!");
-    }
+   if (email === "admin@petpal.com" && password === "1234") {
+  try {
+    
+    fetch("http://localhost:5000/api/users/admin", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+    });
+
+    localStorage.setItem("isAdmin", "true");
+    setIsAdmin(true);
+    setIsAdminLocal(true);
+    setError("");
+    navigate("/admin");
+  } catch (err) {
+    setError("Backend not reachable (check server/CORS).");
+  }
+} else {
+  setError("Invalid email or password!");
+}
   };
 
   const handleLogout = () => {
     localStorage.removeItem("isAdmin");
-    setIsAdmin(false);        // ⭐ update App state
+    localStorage.removeItem("currentUser");
+    setIsAdmin(false);       
     setIsAdminLocal(false);
     setEmail("");
     setPassword("");

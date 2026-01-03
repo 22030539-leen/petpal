@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="site-footer mt-5">
       <div className="container py-4">
         <div className="row align-items-center gy-3">
-          {/* Left: logo / text */}
+       
           <div className="col-md-4 text-center text-md-start">
             <div className="footer-brand">🐾 PetPal</div>
             <div className="footer-copy">
@@ -14,7 +14,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Middle: links */}
+         
           <div className="col-md-4 text-center">
             <div className="footer-links">
               <Link to="/about">About</Link>
@@ -29,7 +29,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Right: “social” icons */}
+          
           <div className="col-md-4 text-center text-md-end">
             <div className="footer-social">
               <a href="#instagram" aria-label="Instagram">📸</a>

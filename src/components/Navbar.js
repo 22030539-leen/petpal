@@ -6,12 +6,12 @@ export default function Navbar({ toggleTheme, theme, isAdmin }) {
     <nav className="navbar navbar-expand-lg shadow-sm">
       <div className="container">
 
-        {/* Brand */}
+        
         <Link className="navbar-brand fw-bold" to="/">
           🐾 PetPal
         </Link>
 
-        {/* Mobile toggle */}
+       
         <button
           className="navbar-toggler"
           type="button"
@@ -100,7 +100,7 @@ export default function Navbar({ toggleTheme, theme, isAdmin }) {
               </NavLink>
             </li>
 
-            {/* 👇 Only show Admin if logged in */}
+            
             {isAdmin && (
               <li className="nav-item">
                 <NavLink
@@ -113,8 +113,15 @@ export default function Navbar({ toggleTheme, theme, isAdmin }) {
                 </NavLink>
               </li>
             )}
-
-            {/* Theme toggle */}
+            <li className="nav-item">
+              <NavLink
+               to="/users" className={({ isActive }) =>
+                 "nav-link" + (isActive ? " active-link" : "")
+               }>
+                Users
+              </NavLink>
+            </li>
+            
             <li className="nav-item d-flex align-items-center ms-3">
               <button
                 type="button"
@@ -125,7 +132,7 @@ export default function Navbar({ toggleTheme, theme, isAdmin }) {
               </button>
             </li>
 
-            {/* Login button */}
+           
             <li className="nav-item ms-3">
               <NavLink
                 to="/login"

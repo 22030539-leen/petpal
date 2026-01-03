@@ -12,7 +12,7 @@ export default function About() {
 
       <div className="text-center mt-4">
         <img
-          src="https://cdn-icons-png.flaticon.com/512/194/194279.png"
+          src="https://www.logoground.com/uploads8/dv8y2020592962020-03-144158957cute-dog.jpg"
           width="200"
           alt="pets"
         />
